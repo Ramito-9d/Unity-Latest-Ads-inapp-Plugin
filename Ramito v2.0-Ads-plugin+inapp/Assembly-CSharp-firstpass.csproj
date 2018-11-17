@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{270378EF-F6F4-9FF6-303A-7A907960D60E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_3;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Heyzap\HeyzapAds.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZBannerAd.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZDemographics.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZIncentivizedAd.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZInterstitialAd.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZOfferWallAd.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZShowOptions.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZVideoAd.cs" />
+     <Compile Include="Assets\Plugins\InApp.cs" />
+     <Compile Include="Assets\Plugins\InAppEvents.cs" />
+     <Compile Include="Assets\Plugins\unibill\script\ComboBox.cs" />
+     <Compile Include="Assets\Plugins\unibill\script\UnibillDemo.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\AmazonAppStore\AmazonAppStoreBillingService.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\AmazonAppStore\AmazonAppStoreCallbackMonoBehaviour.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\AmazonAppStore\IRawAmazonAppStoreBillingInterface.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\AmazonAppStore\RawAmazonAppStoreBillingInterface.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\AppleAppStore\AppleAppStoreBillingService.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\AppleAppStore\AppleAppStoreCallbackMonoBehaviour.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\AppleAppStore\IAppleExtensions.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\AppleAppStore\IStoreKitPlugin.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\AppleAppStore\OSXStorekitPluginImpl.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\AppleAppStore\StoreKitPluginImpl.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\GooglePlay\GooglePlayBillingService.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\GooglePlay\GooglePlayCallbackMonoBehaviour.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\GooglePlay\IRawGooglePlayInterface.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\GooglePlay\PEMKeyLoader.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\GooglePlay\RawGooglePlayInterface.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\AnalyticsReporter.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\Biller.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\BillerFactory.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\CurrencyManager.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\FakeBillingService.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\HelpCentre.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\HTTPClient.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\IBillingService.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\IBillingServiceCallback.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\IHTTPClient.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\InventoryDatabase.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\InventoryModifier.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\IRawBillingPlatformProvider.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\IUnityAnalytics.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\MiniJSON.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\ProductDefinition.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\ProductIdRemapper.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\PurchaseFailureDescription.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\RawBillingPlatformProvider.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\RemoteConfigFetcher.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\RemoteConfigManager.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\TransactionDatabase.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\UnibillConfiguration.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\Unibiller.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\UnibillErrors.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\UnityAnalytics.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\impl\Util.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\SamsungApps\IRawSamsungAppsBillingService.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\SamsungApps\RawSamsungAppsBillingService.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\SamsungApps\SamsungAppsBillingService.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\SamsungApps\SamsungAppsCallbackMonoBehaviour.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\Win8_1\Win8BillingService.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\Win8_1\Win8Eventhook.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\WP8\WP8BillingService.cs" />
+     <Compile Include="Assets\Plugins\unibill\src\WP8\WP8Eventhook.cs" />
+     <Compile Include="Assets\Plugins\Uniject\impl\UnibillUnityUtil.cs" />
+     <Compile Include="Assets\Plugins\Uniject\impl\UnityLevelLoadListener.cs" />
+     <Compile Include="Assets\Plugins\Uniject\impl\UnityLogger.cs" />
+     <Compile Include="Assets\Plugins\Uniject\impl\UnityPlayerPrefsStorage.cs" />
+     <Compile Include="Assets\Plugins\Uniject\impl\UnityResourceLoader.cs" />
+     <Compile Include="Assets\Plugins\Uniject\Interface\ILevelLoadListener.cs" />
+     <Compile Include="Assets\Plugins\Uniject\Interface\ILogger.cs" />
+     <Compile Include="Assets\Plugins\Uniject\Interface\IResourceLoader.cs" />
+     <Compile Include="Assets\Plugins\Uniject\Interface\IStorage.cs" />
+     <Compile Include="Assets\Plugins\Uniject\Interface\IURLFetcher.cs" />
+     <Compile Include="Assets\Plugins\Uniject\Interface\IUtil.cs" />
+     <None Include="Assets\Resources\StartAppDataiOS.txt" />
+     <None Include="Assets\Plugins\unibill\generated\storekit\MacAppStore.MassImportTemplate.txt" />
+     <None Include="Assets\Plugins\unibill\resources\unibillInventory.json.txt" />
+     <None Include="Assets\Plugins\unibill\Readme.txt" />
+     <None Include="Assets\Plugins\unibill\resources\amazon.sdktester.json.txt" />
+     <None Include="Assets\Plugins\unibill\static\Manifest.xml" />
+     <None Include="Assets\Plugins\unibill\resources\unibillStrings.json.txt" />
+     <None Include="Assets\Plugins\unibill\generated\googleplay\MassImportCSV.txt" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\unibill\generated\storekit\AppleAppStore.MassImportTemplate.txt" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.61.0.txt" />
+     <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />
+     <None Include="Assets\Plugins\iOS\Mediation Adapters\README.txt" />
+     <None Include="Assets\Plugins\Android\Heyzap\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\unibill\Changelog.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>/Users/imac/Downloads/Cut-the-Rope-Replica-master/Cut the Rope/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="unibill">
+ <HintPath>/Users/imac/Downloads/Cut-the-Rope-Replica-master/Cut the Rope/Assets/Plugins/unibill.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,3 @@
+SKU	Product ID	Reference Name	Type	Cleared For Sale	Wholesale Price Tier	Displayed Name	Description	Screenshot Path
+	com.appteeka.testInapp23.removeads	Remove Ads	Non-Consumable	yes	1	Remove Ads	com.appteeka.testInapp23.removeads	
+	com.appteeka.testInapp1.1kcoins	100 Coins	Consumable	yes	1	100 Coins	Buy 100 Coins	

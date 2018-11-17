@@ -1,0 +1,1 @@
+{"com.appteeka.testInapp23.removeads":{"itemType":"ENTITLED", "title":"Remove Ads", "description":"com.appteeka.testInapp23.removeads", "price":0.99, "smallIconUrl":"http://example.com"}, "com.appteeka.testInapp1.1kcoins":{"itemType":"CONSUMABLE", "title":"100 Coins", "description":"Buy 100 Coins", "price":0.99, "smallIconUrl":"http://example.com"}}
