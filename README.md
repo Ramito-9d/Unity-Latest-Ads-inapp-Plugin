@@ -1,6 +1,6 @@
 # Unity-Latest-Ads-inapp-Plugin
 Hi,
-Here is unity plugin by tht you can show ads and inapp purchases in your Game in just a minute.
+Here is unity plugin by that you can show ads and inapp purchases in your Game in just a minute.
 Ramito v2.0 Included:
 1- Admob Ads
 2- Unity Ads
